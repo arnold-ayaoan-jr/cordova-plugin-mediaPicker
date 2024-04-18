@@ -1,3 +1,0 @@
-maven { //add this
-        url 'https://jitpack.io' //add this
-}
