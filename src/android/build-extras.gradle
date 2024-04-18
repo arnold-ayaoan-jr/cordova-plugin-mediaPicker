@@ -1,0 +1,12 @@
+repositories {
+  google()
+  mavenCentral()
+  jcenter()
+  maven { //add this 
+        url 'https://jitpack.io' //add this 
+  }
+}
+
+dependencies {
+    implementation 'com.dmcBig:mediapicker'
+}
