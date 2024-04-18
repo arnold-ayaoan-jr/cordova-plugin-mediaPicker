@@ -1,12 +1,11 @@
-repositories {
-  google()
-  mavenCentral()
-  jcenter()
-  maven { //add this 
-        url 'https://jitpack.io' //add this 
-  }
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
 }
 
 dependencies {
-    implementation 'com.dmcBig:mediapicker'
+	        implementation 'com.github.DmcSDK:MediaPickerPoject:Tag'
 }
