@@ -1,7 +1,11 @@
-ext.repos = {
+repositories {
     google()
     mavenCentral()
     maven { //add this 
         url 'https://jitpack.io' //add this 
     }
+}
+
+dependencies {
+    compile 'com.github.DmcSDK:MediaPickerPoject:Tag'
 }
