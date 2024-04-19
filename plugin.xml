@@ -8,6 +8,8 @@
 
   <platform name="android">
      <config-file parent="/*" target="res/xml/config.xml">
+      <preference name="android-minSdkVersion" value="29">
+      <preference name="android-targetSdkVersion" value="33">
       <feature name="MediaPicker">
         <param name="android-package" value="com.dmc.mediaPickerPlugin.MediaPicker"/>
       </feature>
