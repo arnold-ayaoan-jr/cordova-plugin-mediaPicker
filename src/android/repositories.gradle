@@ -1,8 +1,6 @@
 repositories {
-    google()
-    mavenCentral()
-    maven { //add this 
-        url 'https://jitpack.io' //add this 
+    maven {
+        url 'https://jitpack.io'
     }
 }
 
