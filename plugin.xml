@@ -8,14 +8,12 @@
 
   <platform name="android">
     <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
-      <uses-sdk android:minSdkVersion="32" android:targetSdkVersion="33" />
+      <uses-sdk android:minSdkVersion="32" android:targetSdkVersion="32" />
     </edit-config>
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="MediaPicker">
         <param name="android-package" value="com.dmc.mediaPickerPlugin.MediaPicker"/>
       </feature>
-      <preference name="android-minSdkVersion" value="32"/>
-      <preference name="android-targetSdkVersion" value="33"/>
     </config-file>
     <config-file parent="/*" target="AndroidManifest.xml"/>
     <framework src="src/android/repositories.gradle" custom="true" type="gradleReference"/>
